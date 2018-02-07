@@ -48,9 +48,9 @@
       </nav>
       <nav id="sub-nav">
         
-          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="Flux RSS"></a>
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
         
-        <a id="nav-search-btn" class="nav-icon" title="Rechercher"></a>
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
       </nav>
       <div id="search-form-wrap">
         <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
@@ -61,42 +61,674 @@
       <div class="outer">
         <section id="main">
   
-    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
+    <article id="post-类" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
-    <a href="/2018/02/06/hello-world/" class="article-date">
-  <time datetime="2018-02-06T14:40:46.757Z" itemprop="datePublished">2018-02-06</time>
+    <a href="/2018/02/07/类/" class="article-date">
+  <time datetime="2018-02-07T08:57:33.182Z" itemprop="datePublished">2018-02-07</time>
 </a>
     
   </div>
   <div class="article-inner">
     
     
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2018/02/06/hello-world/">Hello World</a>
-    </h1>
-  
-
-      </header>
-    
     <div class="article-entry" itemprop="articleBody">
       
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="SBBBBBBB"><a href="#SBBBBBBB" class="headerlink" title="SBBBBBBB"></a>SBBBBBBB</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+        <h2 id="类"><a href="#类" class="headerlink" title="类"></a>类</h2><p>[toc]</p>
+<h3 id="类的创建实例的调用"><a href="#类的创建实例的调用" class="headerlink" title="类的创建实例的调用"></a>类的创建实例的调用</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Student</span><span class="params">(object)</span>:</span></span><br><span class="line">    <span class="keyword">pass</span></span><br></pre></td></tr></table></figure>
+<p><code>class</code>后面紧接着是类名，即<code>Student</code>，类名通常是大写开头的单词，紧接着是<code>(object)</code>，表示该类是从哪个类继承下来的。通常，如果没有合适的继承类，就使用<code>object</code>类，这是所有类最终都会继承的类。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">class Student:</span><br><span class="line">    print &apos;Hello!&apos;</span><br><span class="line">...</span><br><span class="line">...</span><br><span class="line">Hello!</span><br><span class="line">&gt;&gt;&gt; wang=Student()</span><br><span class="line">&gt;&gt;&gt; wang</span><br><span class="line">&lt;__main__.Student object at 0x7f0812afb250&gt;</span><br><span class="line">&gt;&gt;&gt; Student</span><br><span class="line">&lt;class &apos;__main__.Student&apos;&gt;</span><br><span class="line">&gt;&gt;&gt; wang.name=&apos;guangqiu&apos;  #可以给实例wang绑定一个name属性</span><br><span class="line">&gt;&gt;&gt; wang.name</span><br><span class="line">&apos;guangqiu&apos;</span><br><span class="line">&gt;&gt;&gt;</span><br></pre></td></tr></table></figure>
+<p>由于类可以起到模板的作用，因此，可以在创建实例的时候，把一些我们认为必须绑定的属性强制填写进去。通过定义一个特殊的<code>__init__</code>方法，在创建实例的时候，就把<code>name</code>，<code>score</code>等属性绑上去：</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="class"><span class="keyword">class</span> <span class="title">Student</span><span class="params">(object)</span>:</span></span><br><span class="line"><span class="meta">... </span>    <span class="function"><span class="keyword">def</span> <span class="title">__init__</span><span class="params">(self,name,score)</span>:</span></span><br><span class="line"><span class="meta">... </span>            self.name=name</span><br><span class="line"><span class="meta">... </span>            self.score=score</span><br><span class="line"><span class="meta">... </span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>wang=Student(<span class="string">'guangqiu'</span>,<span class="string">'99'</span>)</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>wang</span><br><span class="line">&lt;__main__.Student object at <span class="number">0x7f0812afb2d0</span>&gt;</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>wang.self</span><br><span class="line">Traceback (most recent call last):</span><br><span class="line">  File <span class="string">"&lt;stdin&gt;"</span>, line <span class="number">1</span>, <span class="keyword">in</span> &lt;module&gt;</span><br><span class="line">AttributeError: <span class="string">'Student'</span> object has no attribute <span class="string">'self'</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>wang.name</span><br><span class="line"><span class="string">'guangqiu'</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>wang.score</span><br><span class="line"><span class="string">'99'</span></span><br><span class="line">&gt;&gt;&gt;</span><br></pre></td></tr></table></figure>
+<p>如上所示，注意到<code>__init__</code>方法的第一个参数永远是<code>__self__</code><br>并且，在函数’<strong>init</strong>‘定义的时候可以不必在()中填写self参数，<br>默认自己传参。</p>
+<h3 id="访问限制"><a href="#访问限制" class="headerlink" title="访问限制"></a>访问限制</h3><p>如果要让内部属性不被外部访问，可以把属性的名称前加上两个下划线<code>__</code>，在Python中，实例的变量名如果以__开头，就变成了一个私有变量（private），只有内部可以访问，外部不能访问，所以，我们把Student类改一改：<br><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Student</span><span class="params">(object)</span>:</span></span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">__init__</span><span class="params">(self, name, score)</span>:</span></span><br><span class="line">        self.__name = name</span><br><span class="line">        self.__score = score</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">print_score</span><span class="params">(self)</span>:</span></span><br><span class="line">        print(<span class="string">'%s: %s'</span> % (self.__name, self.__score))</span><br></pre></td></tr></table></figure></p>
+<p>如上定义之后，如下执行：<br><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">wang=Student(<span class="string">'guangqiu'</span>,<span class="string">'99'</span>)   <span class="comment">#初始化实例属性</span></span><br><span class="line">wang.print_score()              <span class="comment">#guangqiu: 99</span></span><br><span class="line">print(<span class="string">'======================'</span>) <span class="comment">#======================</span></span><br><span class="line"><span class="keyword">print</span> wang.__name              </span><br><span class="line"><span class="comment">#  File "C:/Users/guangqiu/PycharmProjects/hahaguai/test.py", line 136, in &lt;module&gt;</span></span><br><span class="line"><span class="comment"># print wang.__name</span></span><br><span class="line"><span class="comment">#AttributeError: 'Student' object has no attribute '__name'</span></span><br></pre></td></tr></table></figure></p>
+<p>可见，改完后，对于外部代码来说，没什么变动，但是已经无法从外部访问<code>实例变量.__name</code>和<code>实例变量.__score</code>了</p>
+<p>如果又要允许外部代码访问、修改score怎么办？可以再给<code>Student</code>类增加<code>set_score</code>、<code>set_score</code>方法</p>
+<p>你也许会问，原先那种直接通过bart.score = 99也可以修改啊，为什么要定义一个方法大费周折？因为在方法中，可以对参数做检查，避免传入无效的参数：</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Student</span><span class="params">(object)</span>:</span></span><br><span class="line">    ...</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">set_score</span><span class="params">(self, score)</span>:</span></span><br><span class="line">        <span class="keyword">if</span> <span class="number">0</span> &lt;= score &lt;= <span class="number">100</span>:</span><br><span class="line">            self.__score = score</span><br><span class="line">        <span class="keyword">else</span>:</span><br><span class="line">            <span class="keyword">raise</span> ValueError(<span class="string">'bad score'</span>)</span><br></pre></td></tr></table></figure>
+<p>需要注意的是，在Python中，变量名类似<code>__xxx__</code>的，也就是以双下划线开头，并且以双下划线结尾的，是特殊变量，特殊变量是可以直接访问的，不是private变量，所以，不能用<code>__name__</code>、<code>__score__</code>这样的变量名。</p>
+<p>有些时候，你会看到以一个下划线开头的实例变量名，比如_name，这样的实例变量外部是可以访问的，但是，按照约定俗成的规定，当你看到这样的变量时，意思就是，“虽然我可以被访问，但是，请把我视为私有变量，不要随意访问”。</p>
+<p>双下划线开头的实例变量是不是一定不能从外部访问呢？其实也不是。不能直接访问<code>__name</code>是因为Python解释器对外把<code>__name</code>变量改成了<code>_Student__name</code>，所以，仍然可以通过<code>_Student__nam</code>e来访问<code>__name</code>变量：<br><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>bart._Student__name</span><br><span class="line"><span class="string">'Bart Simpson'</span></span><br></pre></td></tr></table></figure></p>
+<p>但是强烈建议你不要这么干，因为不同版本的Python解释器可能会把__name改成不同的变量名。</p>
+<p>总的来说就是，Python本身没有任何机制阻止你干坏事，一切全靠自觉。</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#最后注意下面的这种错误写法：</span></span><br><span class="line"></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>bart = Student(<span class="string">'Bart Simpson'</span>, <span class="number">59</span>)</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>bart.get_name()</span><br><span class="line"><span class="string">'Bart Simpson'</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>bart.__name = <span class="string">'New Name'</span> <span class="comment"># 设置__name变量！</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>bart.__name</span><br><span class="line"><span class="string">'New Name'</span></span><br></pre></td></tr></table></figure>
+<p>表面上看，外部代码“成功”地设置了<code>__name</code>变量，但实际上这个<code>__name</code>变量和class内部的<code>__name</code>变量不是一个变量！内部<code>的__name</code>变量已经被Python解释器自动改成了<code>_Student__name</code>，而外部代码给bart新增了一个<code>__name</code>变量。不信试试：<br><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>bart.get_name() <span class="comment"># get_name()内部返回self.__name</span></span><br><span class="line"><span class="string">'Bart Simpson'</span></span><br></pre></td></tr></table></figure></p>
+<p>可见，并不是修改了外部不可见变量<code>__name</code><br><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Student</span><span class="params">(object)</span>:</span></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">__init__</span><span class="params">(self,name,gender)</span>:</span></span><br><span class="line">        self.name=name</span><br><span class="line">        self.gender=gender</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">set</span><span class="params">(self,name,gender)</span>:</span></span><br><span class="line">        <span class="keyword">if</span>  gender <span class="keyword">not</span> <span class="keyword">in</span> [<span class="string">'male'</span>,<span class="string">'female'</span>]:</span><br><span class="line">            self.name=name</span><br><span class="line">            self.gender=gender</span><br><span class="line">        <span class="keyword">else</span>:</span><br><span class="line">            <span class="keyword">raise</span>  ValueError(<span class="string">'bad value'</span>)</span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">get</span><span class="params">(self)</span>:</span></span><br><span class="line">        <span class="keyword">print</span> self.name</span><br><span class="line">        <span class="keyword">print</span> self.gender</span><br><span class="line"></span><br><span class="line">wang=Student(<span class="string">'guangqiu'</span>,<span class="string">'22'</span>)   </span><br><span class="line">wang.get();                     </span><br><span class="line">wang.set(<span class="string">'hahaguai'</span>,<span class="string">'18'</span>)       </span><br><span class="line">wang.get()</span><br></pre></td></tr></table></figure></p>
+<p>虽然set方法里面有if判断gender但是在初始化的时候并没有起作用，只有在调用的时候才报错。</p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2018/02/06/hello-world/" data-id="cjdbrc73q0000i4o01m8n5diq" class="article-share-link">Partager</a>
+      <a data-url="http://yoursite.com/2018/02/07/类/" data-id="cjdcurit40009m0o0neomcooi" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-快速配置环境变量" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2018/02/07/快速配置环境变量/" class="article-date">
+  <time datetime="2018-02-07T08:57:33.180Z" itemprop="datePublished">2018-02-07</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">C:\ProgramData\Microsoft\Windows\Start Menu\Programs</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>快捷方式放到这个目录下就可以用重命名的方式啦</p>
+</blockquote>
+<p>C:\Users\guangqiu</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2018/02/07/快速配置环境变量/" data-id="cjdcurisz0006m0o0ap12nemp" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-抽象、结构、函数" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2018/02/07/抽象、结构、函数/" class="article-date">
+  <time datetime="2018-02-07T08:57:33.177Z" itemprop="datePublished">2018-02-07</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>[toc]</p>
+<h2 id="函数"><a href="#函数" class="headerlink" title="函数"></a>函数</h2><blockquote>
+<ul>
+<li><p>函数代码块以 def<br>关键词开头，后接函数标识符名称和圆括号()。</p>
+</li>
+<li><p>任何传入参数和自变量必须放在圆括号中间。圆括号之间可以用于定义参数。</p>
+</li>
+<li><p>函数的第一行语句可以选择性地使用文档字符串—用于存放函数说明。</p>
+</li>
+<li><p>函数内容以冒号起始，并且缩进。</p>
+</li>
+<li><p>return [表达式]<br>结束函数，选择性地返回一个值给调用方。不带表达式的return相当于返回 None。</p>
+</li>
+<li><p>函数名其实就是指向一个函数对象的引用，完全可以把函数名赋给一个变量，相当于给这个函数起了一个“别名”：</p>
+</li>
+</ul>
+</blockquote>
+<ul>
+<li><p>函数别名</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>a = abs <span class="comment"># 变量a指向abs函数</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>a(<span class="number">-1</span>) <span class="comment"># 所以也可以通过a调用abs函数</span></span><br><span class="line"><span class="number">1</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>创建函数 </p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="keyword">from</span> math <span class="keyword">import</span> sqrt</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>x=<span class="number">1</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>y=sqrt</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>y(<span class="number">4</span>)</span><br><span class="line"><span class="number">2.0</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>callable(x)       <span class="comment">#判定函数可用性，False表示不可用</span></span><br><span class="line"><span class="keyword">False</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>callable(y)     <span class="comment">#判定函数可用性，True表示可用</span></span><br><span class="line"><span class="keyword">True</span></span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<blockquote>
+<ul>
+<li>callable()在3.0中不可用，需要使用表达式hasattr(func,<strong>call</strong>)代替</li>
+</ul>
+</blockquote>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">fibs</span><span class="params">(num)</span>:</span></span><br><span class="line">     result=[<span class="number">0</span>,<span class="number">1</span>]</span><br><span class="line">     <span class="keyword">for</span> i <span class="keyword">in</span> range(num<span class="number">-2</span>):</span><br><span class="line">              result.append(result[<span class="number">-2</span>]+result[<span class="number">-1</span>])</span><br><span class="line">     <span class="keyword">return</span> result</span><br><span class="line"></span><br><span class="line"><span class="keyword">print</span> fibs(<span class="number">10</span>)</span><br><span class="line"><span class="comment">#[0, 1, 1, 2, 3, 5, 8, 13, 21, 34]</span></span><br></pre></td></tr></table></figure>
+<p>如上所示，斐波那契数列的每一项等于前两项之和。</p>
+<ul>
+<li>文档化函数</li>
+</ul>
+<p>想要给文档加上注释，#是个不错的选择，另外的方式就是在def语句（类或者模块）下面直接写上引号字符串，这类字符串就会作为函数的一部分进行存储，称为<em>文档字符串</em>。<br><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="function"><span class="keyword">def</span> <span class="title">square</span><span class="params">(x)</span>:</span></span><br><span class="line"><span class="meta">... </span>    <span class="string">'calculates the square of the number x.'</span></span><br><span class="line"><span class="meta">... </span>    <span class="keyword">return</span> x*x</span><br><span class="line"><span class="meta">... </span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>square.__doc__</span><br><span class="line"><span class="string">'calculates the square of the number x.'</span></span><br><span class="line">&gt;&gt;&gt;</span><br></pre></td></tr></table></figure></p>
+<ul>
+<li>多个返回值<blockquote>
+<p>比如在游戏中经常需要从一个点移动到另一个点，给出坐标、位移和角度，就可以计算出新的新的坐标：</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> math</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">move</span><span class="params">(x, y, step, angle=<span class="number">0</span>)</span>:</span></span><br><span class="line">    nx = x + step * math.cos(angle)</span><br><span class="line">    ny = y - step * math.sin(angle)</span><br><span class="line">    <span class="keyword">return</span> nx, ny</span><br><span class="line">...</span><br><span class="line">...</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>r = move(<span class="number">100</span>, <span class="number">100</span>, <span class="number">60</span>, math.pi / <span class="number">6</span>)</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>print(r)</span><br><span class="line">(<span class="number">151.96152422706632</span>, <span class="number">70.0</span>)</span><br></pre></td></tr></table></figure>
+</blockquote>
+</li>
+</ul>
+<p>函数可以同时返回多个值，但其实就是一个tuple。</p>
+<blockquote>
+<p>pi 弧度制为180°</p>
+</blockquote>
+<ul>
+<li><p>一元二次方程求解</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> python</span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">quadratic</span><span class="params">(a, b, c)</span>:</span></span><br><span class="line">    L = [a, b, c]</span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> L:</span><br><span class="line">        <span class="keyword">if</span> <span class="keyword">not</span> isinstance(i, int):</span><br><span class="line">            <span class="keyword">raise</span> TypeError(<span class="string">"bad operand type"</span>)</span><br><span class="line">    delta=b*b<span class="number">-4</span>*a*c</span><br><span class="line">    <span class="keyword">if</span> delta&lt;<span class="number">0</span>:</span><br><span class="line">        <span class="keyword">return</span> <span class="string">'None'</span></span><br><span class="line">    <span class="keyword">elif</span> math.sqrt(delta)==<span class="number">0</span>:</span><br><span class="line">        <span class="keyword">return</span>       (-b)/(<span class="number">2</span>*a)</span><br><span class="line">    <span class="keyword">else</span>:</span><br><span class="line">        j = (-b+math.sqrt(delta))/(<span class="number">2</span>*a)</span><br><span class="line">        k= (-b - math.sqrt(delta)) / (<span class="number">2</span> * a)</span><br><span class="line">        <span class="keyword">return</span> j,k</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">print</span> quadratic(<span class="number">1</span>,<span class="number">2</span>,<span class="number">1</span>)   <span class="comment">#-1</span></span><br><span class="line"><span class="keyword">print</span> quadratic(<span class="number">1</span>,<span class="number">3</span>,<span class="number">1</span>)  <span class="comment">#(-0.3819660112501051, -2.618033988749895)</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>返回值为None的函数</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="function"><span class="keyword">def</span> <span class="title">test</span><span class="params">()</span>:</span></span><br><span class="line"><span class="meta">... </span>    <span class="keyword">print</span> <span class="string">'hahaguai'</span></span><br><span class="line"><span class="meta">... </span>    <span class="keyword">return</span></span><br><span class="line"><span class="meta">... </span>    <span class="keyword">print</span> <span class="string">'xixiguai'</span></span><br><span class="line"><span class="meta">... </span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>test()</span><br><span class="line">hahaguai</span><br><span class="line">&gt;&gt;&gt;</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>x=test()</span><br><span class="line">hahaguai</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="keyword">print</span> x</span><br><span class="line"><span class="keyword">None</span></span><br><span class="line">&gt;&gt;&gt;</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<p>可见，如上return后面的一行并没有执行。</p>
+<h3 id="参数传递问题"><a href="#参数传递问题" class="headerlink" title="参数传递问题"></a>参数传递问题</h3><blockquote>
+<ul>
+<li>如下所示，类似于值传递</li>
+</ul>
+</blockquote>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="function"><span class="keyword">def</span> <span class="title">name</span><span class="params">(x)</span>:</span></span><br><span class="line"><span class="meta">... </span>    x=<span class="number">10</span></span><br><span class="line"><span class="meta">... </span>    <span class="keyword">print</span> x</span><br><span class="line"><span class="meta">... </span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>x=<span class="number">9</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>name(x)</span><br><span class="line"><span class="number">10</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>x</span><br><span class="line"><span class="number">9</span></span><br><span class="line">&gt;&gt;&gt;</span><br></pre></td></tr></table></figure>
+<blockquote>
+<ul>
+<li>如下所示，类似于地址传递</li>
+</ul>
+</blockquote>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="function"><span class="keyword">def</span> <span class="title">arr</span><span class="params">(n)</span>:</span></span><br><span class="line"><span class="meta">... </span>    n[<span class="number">0</span>]=<span class="string">'hahaguai'</span></span><br><span class="line"><span class="meta">... </span>    <span class="keyword">return</span> n</span><br><span class="line"><span class="meta">... </span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>names=[<span class="string">'wgq'</span>,<span class="string">'zsmj'</span>]</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>arr(names)</span><br><span class="line">[<span class="string">'hahaguai'</span>, <span class="string">'zsmj'</span>]</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>names</span><br><span class="line">[<span class="string">'hahaguai'</span>, <span class="string">'zsmj'</span>]</span><br><span class="line">&gt;&gt;&gt;</span><br></pre></td></tr></table></figure>
+<p>列表参数的常见操作：<br><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>names=[<span class="string">'hahaguai'</span>,<span class="string">'xixiguai'</span>,<span class="string">'chichi'</span>]</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>names</span><br><span class="line">[<span class="string">'hahaguai'</span>, <span class="string">'xixiguai'</span>, <span class="string">'chichi'</span>]</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>names1=names[:]   </span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>names1[<span class="number">0</span>]=<span class="string">'niuniu'</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>names1 <span class="keyword">is</span> names   <span class="comment">#同一性判断，并不是同一个列表</span></span><br><span class="line"><span class="keyword">False</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>names1==names     <span class="comment">#值比较，发现相等</span></span><br><span class="line"><span class="keyword">True</span></span><br><span class="line">&gt;&gt;&gt;</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>names1</span><br><span class="line">[<span class="string">'niuniu'</span>, <span class="string">'xixiguai'</span>, <span class="string">'chichi'</span>]</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>names</span><br><span class="line">[<span class="string">'hahaguai'</span>, <span class="string">'xixiguai'</span>, <span class="string">'chichi'</span>]</span><br><span class="line">&gt;&gt;&gt;</span><br></pre></td></tr></table></figure></p>
+<p>这样可以保护原来的列表</p>
+<p>假设如下操作就会破坏原来的列表：</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>a=names</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>a</span><br><span class="line">[<span class="string">'niuniu'</span>, <span class="string">'xixiguai'</span>, <span class="string">'chichi'</span>]</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>names</span><br><span class="line">[<span class="string">'niuniu'</span>, <span class="string">'xixiguai'</span>, <span class="string">'chichi'</span>]</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>a <span class="keyword">is</span> names</span><br><span class="line"><span class="keyword">True</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>a==names</span><br><span class="line"><span class="keyword">True</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>a</span><br><span class="line">[<span class="string">'benben'</span>, <span class="string">'xixiguai'</span>, <span class="string">'chichi'</span>]</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>names</span><br><span class="line">[<span class="string">'benben'</span>, <span class="string">'xixiguai'</span>, <span class="string">'chichi'</span>]</span><br><span class="line">&gt;&gt;&gt;</span><br></pre></td></tr></table></figure>
+<ul>
+<li>为什么要改变参数<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>storage</span><br><span class="line">&#123;<span class="string">'middle'</span>: &#123;&#125;, <span class="string">'last'</span>: &#123;&#125;, <span class="string">'first'</span>: &#123;&#125;&#125;</span><br><span class="line">&gt;&gt;&gt;</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<p>如上所示，创建了一个字典字典中有三个键，每个键对应的值是另外一个字典。</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>me</span><br><span class="line"><span class="string">'M L H'</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>storage[<span class="string">'first'</span>][<span class="string">'M'</span>]=[me]</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>storage[<span class="string">'middle'</span>][<span class="string">'L'</span>]=[me]</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>storage[<span class="string">'last'</span>][<span class="string">'H'</span>]=[me]</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>storage</span><br><span class="line">&#123;<span class="string">'middle'</span>: &#123;<span class="string">'L'</span>: [<span class="string">'M L H'</span>]&#125;, <span class="string">'last'</span>: &#123;<span class="string">'H'</span>: [<span class="string">'M L H'</span>]&#125;, <span class="string">'first'</span>: &#123;<span class="string">'M'</span>: [<span class="string">'M L H'</span>]&#125;&#125;</span><br><span class="line">&gt;&gt;&gt;</span><br><span class="line"><span class="comment">#如果想得到所有中间名字首字母为L的人，如下操作</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>storage[<span class="string">'middle'</span>][<span class="string">'L'</span>]</span><br><span class="line">[<span class="string">'M L H'</span>]</span><br><span class="line">&gt;&gt;&gt;</span><br></pre></td></tr></table></figure>
+<p>下面向字典中插入mysisiter</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>mysister=<span class="string">'A L H'</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>storage[<span class="string">'first'</span>].setdefault(<span class="string">'M'</span>,<span class="string">'sada'</span>)   <span class="comment">#setdefault()方法，为字典设置默认值，没有就设置为参数2，有就不会覆盖</span></span><br><span class="line">[<span class="string">'M L H'</span>]</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>storage[<span class="string">'first'</span>].setdefault(<span class="string">'A'</span>,[])<span class="comment">#首先判断字典中有没有姓名first部分中有没有A开头的人，没有的话就返回一个[]然后</span></span><br><span class="line">[]</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>storage[<span class="string">'first'</span>]</span><br><span class="line">&#123;<span class="string">'A'</span>: [], <span class="string">'M'</span>: [<span class="string">'M L H'</span>]&#125;</span><br><span class="line">&gt;&gt;&gt;</span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>storage[<span class="string">'first'</span>].setdefault(<span class="string">'A'</span>,[])</span><br><span class="line">[]</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>storage[<span class="string">'first'</span>].setdefault(<span class="string">'A'</span>,[]).append(mysister)</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>storage[<span class="string">'middle'</span>].setdefault(<span class="string">'L'</span>,[]).append(mysister)</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>storage[<span class="string">'last'</span>].setdefault(<span class="string">'H'</span>,[]).append(mysister)</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>storage</span><br><span class="line">&#123;<span class="string">'middle'</span>: &#123;<span class="string">'L'</span>: [<span class="string">'M L H'</span>, <span class="string">'A L H'</span>]&#125;, <span class="string">'last'</span>: &#123;<span class="string">'H'</span>: [<span class="string">'M L H'</span>, <span class="string">'A L H'</span>]&#125;, <span class="string">'first'</span>: &#123;<span class="string">'A'</span>: [<span class="string">'A L H'</span>], <span class="string">'M'</span>: [<span class="string">'M L H'</span>]&#125;&#125;</span><br></pre></td></tr></table></figure>
+<ul>
+<li>关键字参数和默认参数<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">hello_1</span><span class="params">(greeting,name)</span>:</span></span><br><span class="line">    print(greeting,name)</span><br><span class="line">    <span class="keyword">return</span></span><br><span class="line">    </span><br><span class="line">    </span><br><span class="line">hello_1(<span class="string">'Hello'</span>,<span class="string">'hahaguai'</span>) <span class="comment">#('Hello', 'hahaguai')</span></span><br><span class="line"></span><br><span class="line">hello_1(<span class="string">'hahaguai'</span>,<span class="string">'Hello'</span>) <span class="comment">#('hahaguai', 'Hello')</span></span><br><span class="line"></span><br><span class="line">hello_1(greeting=<span class="string">'Hello'</span>,name=<span class="string">'WGQ'</span>) <span class="comment">#('Hello', 'WGQ')</span></span><br><span class="line"></span><br><span class="line">hello_1(name=<span class="string">'WGQ'</span>,greeting=<span class="string">'Hello'</span>) <span class="comment">#('Hello', 'WGQ'</span></span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<p>当已知内部形式参数的时候，可以使用在调用的时候给形式参数赋值的方式来调用函数，这样即使顺序改变也不会影响输出。</p>
+<p>这类使用函数名提供的参数叫做<strong>关键字参数</strong>。它的主要作用可以明确每个参数的作用。</p>
+<p>当然关键字参数最厉害的地方在于可以在函数中给参数提供默认值<br><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">hello_3</span><span class="params">(name=<span class="string">'WGQ'</span>,greeting=<span class="string">'Hello'</span>)</span>:</span></span><br><span class="line">    <span class="keyword">print</span> <span class="string">'%s %s'</span> %(greeting,name)</span><br><span class="line">    <span class="keyword">return</span></span><br><span class="line">    </span><br><span class="line">hello_3()  <span class="comment">#Hello WGQ</span></span><br><span class="line"></span><br><span class="line">hello_3(<span class="string">'hahaguai'</span>) <span class="comment">#Hello hahaguai</span></span><br><span class="line"></span><br><span class="line">hello_3(<span class="string">'xixiguai'</span>,<span class="string">'Hello~'</span>) <span class="comment">#Hello~ xixiguai</span></span><br><span class="line"></span><br><span class="line">hello_3(greeting=<span class="string">'Hello!'</span>,name=<span class="string">'niuniu'</span>)<span class="comment">#Hello! niuniu</span></span><br></pre></td></tr></table></figure></p>
+<p>这样的话如果不给值，就会使用默认的值，给定参数就会覆盖相应位置的值，给定指定参数名的值就会覆盖相应的参数名的值。</p>
+<ul>
+<li>默认参数<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">add_end</span><span class="params">(L=[])</span>:</span></span><br><span class="line">    L.append(<span class="string">'END'</span>)</span><br><span class="line">    <span class="keyword">return</span> L</span><br><span class="line"><span class="comment">#当你正常调用时，结果似乎不错：</span></span><br><span class="line"></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>add_end([<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>])</span><br><span class="line">[<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="string">'END'</span>]</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>add_end([<span class="string">'x'</span>, <span class="string">'y'</span>, <span class="string">'z'</span>])</span><br><span class="line">[<span class="string">'x'</span>, <span class="string">'y'</span>, <span class="string">'z'</span>, <span class="string">'END'</span>]</span><br><span class="line"><span class="comment">#当你使用默认参数调用时，一开始结果也是对的：</span></span><br><span class="line"></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>add_end()</span><br><span class="line">[<span class="string">'END'</span>]</span><br><span class="line"><span class="comment">#但是，再次调用add_end()时，结果就不对了：</span></span><br><span class="line"></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>add_end()</span><br><span class="line">[<span class="string">'END'</span>, <span class="string">'END'</span>]</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>add_end()</span><br><span class="line">[<span class="string">'END'</span>, <span class="string">'END'</span>, <span class="string">'END'</span>]</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<p>原因解释如下：</p>
+<p>Python函数在定义的时候，默认参数L的值就被计算出来了，即[]，因为默认参数L也是一个变量，它指向对象[]，每次调用该函数，如果改变了L的内容，则下次调用时，默认参数的内容就变了，不再是函数定义时的[]了。</p>
+<p> 定义默认参数要牢记一点：默认参数必须指向不变对象！<br>要修改上面的例子，我们可以用None这个不变对象来实现：<br><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">add_end</span><span class="params">(L=None)</span>:</span></span><br><span class="line">    <span class="keyword">if</span> L <span class="keyword">is</span> <span class="keyword">None</span>:</span><br><span class="line">        L = []</span><br><span class="line">    L.append(<span class="string">'END'</span>)</span><br><span class="line">    <span class="keyword">return</span> L</span><br><span class="line"><span class="comment">#现在，无论调用多少次，都不会有问题：</span></span><br><span class="line"></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>add_end()</span><br><span class="line">[<span class="string">'END'</span>]</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>add_end()</span><br><span class="line">[<span class="string">'END'</span>]</span><br></pre></td></tr></table></figure></p>
+<p>为什么要设计str、None这样的不变对象呢？</p>
+<p>因为不变对象一旦创建，对象内部的数据就不能修改，这样就减少了由于修改数据导致的错误。此外，由于对象不变，多任务环境下同时读取对象不需要加锁，同时读一点问题都没有。我们在编写程序时，如果可以设计一个不变对象，那就尽量设计成不变对象。</p>
+<ul>
+<li>收集参数<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">para</span><span class="params">(name,*params)</span>:</span></span><br><span class="line">    print(name,params)  <span class="comment">#('wgq', ('nan', '18cm')) </span></span><br><span class="line">    </span><br><span class="line">    print(name)     <span class="comment">#('wgq')</span></span><br><span class="line"></span><br><span class="line">    print(params)  <span class="comment">#('nan', '18cm')</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span></span><br><span class="line">    </span><br><span class="line">para(<span class="string">'wgq'</span>,<span class="string">'nan'</span>,<span class="string">'18cm'</span>)</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<p>如上所示，收集参数*para能够与普通参数配合使用。</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">para</span><span class="params">(name,*params)</span>:</span></span><br><span class="line">    print(name,params)</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">return</span></span><br><span class="line">para(<span class="string">'gg'</span>)    <span class="comment">#  ('gg', ())</span></span><br></pre></td></tr></table></figure>
+<p>如上所示，如果不给出*代表的参数的话，就会输出空元祖，并且，关键字参数是必须要给出的。</p>
+<p>收集关键字参数<br><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">para</span><span class="params">(x,y,z=<span class="number">3</span>,*params,**para2)</span>:</span></span><br><span class="line">    <span class="keyword">print</span> x,y,z  <span class="comment">#1 2 4</span></span><br><span class="line">    </span><br><span class="line">    <span class="keyword">print</span> params  <span class="comment">#(5, 6, 7)</span></span><br><span class="line">    </span><br><span class="line">    <span class="keyword">print</span> para2  <span class="comment"># &#123;'age': 20, 'name': 'hahaguai'&#125;</span></span><br><span class="line">    </span><br><span class="line">    <span class="keyword">return</span></span><br><span class="line"></span><br><span class="line">para(<span class="number">1</span>,<span class="number">2</span>,<span class="number">4</span>,<span class="number">5</span>,<span class="number">6</span>,<span class="number">7</span>,name=<span class="string">'hahaguai'</span>,age=<span class="number">20</span>)</span><br></pre></td></tr></table></figure></p>
+<p>可见关键字参数收集为字典。</p>
+<p>参数收集逆过程<br><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">add</span><span class="params">(x,y)</span>:</span></span><br><span class="line">    <span class="keyword">return</span> x+y</span><br><span class="line">params=(<span class="number">1</span>,<span class="number">2</span>)</span><br><span class="line"><span class="keyword">print</span> add(*params)   <span class="comment">#3</span></span><br></pre></td></tr></table></figure></p>
+<h3 id="作用域"><a href="#作用域" class="headerlink" title="作用域"></a>作用域</h3><p>变量其实就是值的名字，在执行x=1赋值语句之后，名称引用到值1。就像字典一样，键引用值，当然变量和所对应的值是个不可见字典。内建函数vars函数可以返回这个字典：</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">x=<span class="number">1</span></span><br><span class="line">scope=vars()</span><br><span class="line">scope[<span class="string">'x'</span>]</span><br><span class="line">scope[<span class="string">'x'</span>]=scope[<span class="string">'x'</span>]+<span class="number">1</span></span><br><span class="line"><span class="keyword">print</span> x</span><br></pre></td></tr></table></figure>
+<p>函数内部的变量称为<strong>局部变量</strong>，所以用全局变量的名字作为参数名没有问题。当想在函数内部声明一个变量为全局变量的时候，就可以使用关键字<code>global</code>来声明了。</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">x=<span class="number">1</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">change_global</span><span class="params">()</span>:</span></span><br><span class="line">    <span class="keyword">global</span> x</span><br><span class="line">    x=x+<span class="number">1</span></span><br><span class="line">    <span class="keyword">return</span></span><br><span class="line">change_global()</span><br><span class="line"><span class="keyword">print</span> x   <span class="comment">#2</span></span><br></pre></td></tr></table></figure>
+<ul>
+<li><p>嵌套作用域</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>递归<br>两个经典：阶乘、幂</p>
+</li>
+</ul>
+<p>阶乘<br><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">jiecheng</span><span class="params">(x)</span>:</span></span><br><span class="line">    result=x</span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> range(<span class="number">1</span>,x):</span><br><span class="line">        result=result*i</span><br><span class="line">    <span class="keyword">return</span> result</span><br><span class="line"></span><br><span class="line"><span class="keyword">print</span> jiecheng(<span class="number">3</span>)       <span class="comment">#6</span></span><br><span class="line">``` </span><br><span class="line"></span><br><span class="line">递归实现阶乘</span><br><span class="line">```pythn</span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">diguijiecheng</span><span class="params">(x)</span>:</span></span><br><span class="line">    <span class="keyword">if</span> x==<span class="number">1</span>:<span class="keyword">return</span> <span class="number">1</span></span><br><span class="line">    <span class="keyword">return</span> x*diguijiecheng(x<span class="number">-1</span>)</span><br><span class="line"><span class="keyword">print</span> diguijiecheng(<span class="number">3</span>)   <span class="comment">#6</span></span><br></pre></td></tr></table></figure></p>
+<p>循环求幂<br><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">qiumi</span><span class="params">(x,n)</span>:</span></span><br><span class="line">    result=<span class="number">1</span></span><br><span class="line">    <span class="keyword">if</span> n==<span class="number">0</span>:<span class="keyword">return</span> <span class="number">1</span></span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> range(n):</span><br><span class="line">        result=result*x</span><br><span class="line">    <span class="keyword">return</span> result</span><br><span class="line"></span><br><span class="line"><span class="keyword">print</span> qiumi(<span class="number">2</span>,<span class="number">3</span>)            <span class="comment">#8</span></span><br></pre></td></tr></table></figure></p>
+<p>递归求幂<br><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">qiumi</span><span class="params">(x,n)</span>:</span></span><br><span class="line">    <span class="keyword">if</span> n==<span class="number">0</span>:<span class="keyword">return</span> <span class="number">1</span></span><br><span class="line">    <span class="keyword">return</span> x*qiumi(x,n<span class="number">-1</span>)  </span><br><span class="line"><span class="keyword">print</span> qiumi(<span class="number">2</span>,<span class="number">4</span>)       <span class="comment">#16</span></span><br></pre></td></tr></table></figure></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2018/02/07/抽象、结构、函数/" data-id="cjdcurit10007m0o0bth4poru" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-time、os、subprocess" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2018/02/07/time、os、subprocess/" class="article-date">
+  <time datetime="2018-02-07T08:57:33.176Z" itemprop="datePublished">2018-02-07</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>[toc]</p>
+<h2 id="import-time"><a href="#import-time" class="headerlink" title="import time"></a>import time</h2><ul>
+<li>返回一个时间元组<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> time</span><br><span class="line">time.strftime(<span class="string">'%Y-%m-%d %H:%M:%S'</span>)</span><br><span class="line"><span class="comment">#'2018-01-27 04:52:00'</span></span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<p>一个萌新，看官方文档之后，推荐使用以上表达时间的方式。</p>
+<p>关于日志格式化的更多格式，参考官方文档模块中<a href="https://docs.python.org/3.7/library/time.html#time.strftime" target="_blank" rel="noopener">time.strftime(format[, t])  </a></p>
+<hr>
+<h2 id="import-shlex-subprocess"><a href="#import-shlex-subprocess" class="headerlink" title="import shlex, subprocess"></a>import shlex, subprocess</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">###</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="keyword">import</span> shlex, subprocess</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>command_line = raw_input()</span><br><span class="line">/bin/vikings -input eggs.txt -output <span class="string">"spam spam.txt"</span> -cmd <span class="string">"echo '$MONEY'"</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>args = shlex.split(command_line)</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="keyword">print</span> args</span><br><span class="line">[<span class="string">'/bin/vikings'</span>, <span class="string">'-input'</span>, <span class="string">'eggs.txt'</span>, <span class="string">'-output'</span>, <span class="string">'spam spam.txt'</span>, <span class="string">'-cmd'</span>, <span class="string">"echo '$MONEY'"</span>]</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>p = subprocess.Popen(args) <span class="comment"># Success!</span></span><br></pre></td></tr></table></figure>
+<h3 id="shlex-split"><a href="#shlex-split" class="headerlink" title="shlex.split()"></a>shlex.split()</h3><ul>
+<li>可以看到，空格分隔的选项（如-input）和参数（如test.txt）会被<code>shlex.split(cmd)</code> 分割为列表里独立的项，但引号里的或者转义过的空格不在此列;shlex.split()是一个能够处理复杂序列的参数。</li>
+</ul>
+<h3 id="subprocess-Popen"><a href="#subprocess-Popen" class="headerlink" title="subprocess.Popen"></a>subprocess.Popen</h3><p><a href="http://blog.csdn.net/g457499940/article/details/17068277###;" target="_blank" rel="noopener">subprocess.Popen更多资料请参考</a></p>
+<ul>
+<li><p><code>subprocess.Popen(&quot;cat test.txt&quot;, shell=True)</code><br>相当于<br><code>subprocess.Popen([&quot;/bin/sh&quot;, &quot;-c&quot;, &quot;cat test.txt&quot;])</code><br>在linux下，当<code>shell=False</code>（默认）时，Popen使用<code>os.execvp()</code>来执行子程序。args一般要是一个[列表]。如果args是个字符串的<br>话，会被当做是可执行文件的路径，这样就不能传入任何参数了。因此，传入的参数args如果是一个字符串的话联合<code>shell=true</code>使用，如果是一个字符串列表，就可以直接使用，不必加参数<code>shell=true</code></p>
+</li>
+<li><p>在Windows下，下面的却又是可以工作的</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">subprocess.Popen([&quot;notepad.exe&quot;, &quot;test.txt&quot;])</span><br><span class="line">subprocess.Popen(&quot;notepad.exe test.txt&quot;)</span><br></pre></td></tr></table></figure>
+</li>
+<li><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>p1=subprocess.Popen(<span class="string">'cat /etc/passwdv_1'</span>,shell=<span class="keyword">True</span>,stdin=subprocess.PIPE,stdout=subprocess.PIPE) </span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>p1.communicate()</span><br><span class="line">(<span class="string">'root:x:0:0:root:/root:/bin/bash\n\n'</span>, <span class="keyword">None</span>)</span><br><span class="line">上面的操作如下所示。</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="keyword">print</span> subprocess.Popen(<span class="string">'cat /etc/passwdv_1'</span>,shell=<span class="keyword">True</span>,stdin=subprocess.PIPE,stdout=subprocess.PIPE).communicate()[<span class="number">0</span>]  <span class="comment">#其实就是一个元组，这个元组的第一个元素默认为stdout</span></span><br><span class="line"><span class="string">'root:x:0:0:root:/root:/bin/bash\n\n'</span></span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<p>注意，<code>p.communicate()</code>会把缓存中的东西清空，再次调用就会报错，除非再次执行<code>p1=subprocess.Popen(.....)</code>才会重新赋值，因此建议<code>(Pstdout,Pstderr)=p.communicate()</code>保存起来。</p>
+<p>下面是一些示例：</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="comment">#代替shell管道：</span></span><br><span class="line">p=`dmesg | grep cpu`</span><br><span class="line"></span><br><span class="line"><span class="comment">#等效于</span></span><br><span class="line"></span><br><span class="line">p1=Popen([<span class="string">'dmesg'</span>],stdout=PIPE)</span><br><span class="line">p2=Popen([<span class="string">'grep'</span>,<span class="string">'cpu'</span>],stdin=p1.stdout,stdout=PIPE)</span><br><span class="line">output = p2.communicate()[<span class="number">0</span>]</span><br><span class="line">output</span><br><span class="line">cpu0: &lt;ACPI CPU&gt; on acpi0\nacpi_throttle0: &lt;ACPI CPU Throttling&gt; on cpu0\n</span><br><span class="line"></span><br><span class="line"><span class="comment">############################################</span></span><br><span class="line"><span class="comment">#更多示例如下</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>p1=subprocess.Popen(<span class="string">'cat /etc/passwd'</span>,shell=<span class="keyword">True</span>,stdout=subprocess.PIPE)                </span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>p2=subprocess.Popen(<span class="string">'grep 0:0'</span>,shell=<span class="keyword">True</span>,stdin=p1.stdout,stdout=subprocess.PIPE)</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>p3=subprocess.Popen(<span class="string">"cut -d ':' -f 7"</span>,shell=<span class="keyword">True</span>,stdin=p2.stdout,stdout=subprocess.PIPE)</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="keyword">print</span> p3.stdout.read()</span><br></pre></td></tr></table></figure>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2018/02/07/time、os、subprocess/" data-id="cjdcurisw0004m0o040asyxny" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-tcpdump+pt-query-digest" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2018/02/07/tcpdump+pt-query-digest/" class="article-date">
+  <time datetime="2018-02-07T08:57:33.175Z" itemprop="datePublished">2018-02-07</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>[toc]</p>
+<h2 id="tcpdump-pt-query-digest"><a href="#tcpdump-pt-query-digest" class="headerlink" title="tcpdump+pt-query-digest"></a>tcpdump+pt-query-digest</h2><p>学习目标：</p>
+<ul>
+<li>使用tcpdump命令按照一定规则抓取数据包，然后转储到中间文件</li>
+<li>使用pt-query-digest对中间文件按照一定规则进行分析</li>
+</ul>
+<h3 id="tcpdump"><a href="#tcpdump" class="headerlink" title="tcpdump"></a>tcpdump</h3><p>tcpdump是一个强大的命令，这里我们只是讨论一些关于tcp的输出典型方法，因为MySQL就是使用tcp（可靠）传输数据的。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[root@archpredb214  ~]#tcpdump -s 65535 -x -nn -q -tttt -i any -c 100000 port 3306 &gt;dmp.txt</span><br></pre></td></tr></table></figure></p>
+<blockquote>
+<ul>
+<li>-s 65535 或者 -s 0都表示抓取一个完整的数据包，在IP数据包中==总长度=首部+数据部分==，因此如下图所示，总长度共16~31,16bit，2^16-1=65535，即抓取整个数据包。</li>
+</ul>
+</blockquote>
+<p><img src="http://img3.ph.126.net/vBeH9eDewhj4Kx24a1m0dA==/2791950294010152753.jpg" alt="image"></p>
+<blockquote>
+<ul>
+<li><p>-x  打印每个数据包包头跟数据包内容，要想分析数据，这个参数是必须的；下面是命令加  -x参数  跟不加 –x参数的区别。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">[root@archpredb214 ~]# tcpdump -s 65535 -x -nn -q -tttt -i any -c 100000 port 3306    #有选项 -x</span><br><span class="line">tcpdump: verbose output suppressed, use -v or -vv for full protocol decode</span><br><span class="line">listening on any, link-type LINUX_SLL (Linux cooked), capture size 65535 bytes</span><br><span class="line">2018-01-24 09:49:54.443184 IP 10.27.139.178.57940 &gt; 10.27.139.176.3306: tcp 0</span><br><span class="line">	0x0000:  4500 0034 430d 4000 4006 cc1e 0a1b 8bb2</span><br><span class="line">	0x0010:  0a1b 8bb0 e254 0cea e057 2c39 e536 d965</span><br><span class="line">	0x0020:  8011 007b 7867 0000 0101 080a 1676 5325</span><br><span class="line">	0x0030:  1606 9833</span><br><span class="line">#有16进制数据包内容</span><br><span class="line">...</span><br><span class="line">[root@archpredb214 ~]# tcpdump -s 65535  -nn -q -tttt -i any -c 100000 port 3306         #无选项 -x</span><br><span class="line">tcpdump: verbose output suppressed, use -v or -vv for full protocol decode</span><br><span class="line">listening on any, link-type LINUX_SLL (Linux cooked), capture size 65535 bytes</span><br><span class="line">2018-01-24 09:50:16.107281 IP 127.0.0.1.43489 &gt; 127.0.0.1.3306: tcp 0</span><br><span class="line">2018-01-24 09:50:16.107293 IP 127.0.0.1.3306 &gt; 127.0.0.1.43489: tcp 0</span><br><span class="line">...</span><br><span class="line">#注意这里是没有数据包内容的</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>-nn  不解析ip到主机名、端口号到服务名，而是直接以 ip、port的形式显示。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line">[root@archpredb214 ~]# tcpdump -s 65535 -x -nn -q -tttt -i any -c 100000 port 3306    #有选项 -nn</span><br><span class="line">tcpdump: verbose output suppressed, use -v or -vv for full protocol decode</span><br><span class="line">listening on any, link-type LINUX_SLL (Linux cooked), capture size 65535 bytes</span><br><span class="line">2018-01-24 09:49:54.443184 IP 10.27.139.178.57940 &gt; 10.27.139.176.3306: tcp 0  </span><br><span class="line">#注意主机名、端口部分</span><br><span class="line">	0x0000:  4500 0034 430d 4000 4006 cc1e 0a1b 8bb2</span><br><span class="line">	0x0010:  0a1b 8bb0 e254 0cea e057 2c39 e536 d965</span><br><span class="line">	0x0020:  8011 007b 7867 0000 0101 080a 1676 5325</span><br><span class="line">	0x0030:  1606 9833</span><br><span class="line">...</span><br><span class="line">...</span><br><span class="line">[root@archpredb214 ~]# tcpdump -s 65535 -x  -q -tttt -i any -c 100000 port 3306    #无选项 -nn</span><br><span class="line">tcpdump: verbose output suppressed, use -v or -vv for full protocol decode</span><br><span class="line">listening on any, link-type LINUX_SLL (Linux cooked), capture size 65535 bytes</span><br><span class="line">2018-01-24 10:01:31.397868 IP localhost.43489 &gt; localhost.mysql: tcp 19</span><br><span class="line">#注意主机名、端口部分</span><br><span class="line">	0x0000:  4508 0047 e96b 4000 4006 533b 7f00 0001</span><br><span class="line">	0x0010:  7f00 0001 a9e1 0cea ae56 4f04 fecc 12a2</span><br><span class="line">	0x0020:  8018 0101 fe3b 0000 0101 080a 1680 f5a0</span><br><span class="line">	0x0030:  1676 a7c7 0f00 0000 0373 686f 7720 6461</span><br><span class="line">	0x0040:  7461 6261 7365 73</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>-q 安静输出，很少打印有关协议的信息，所以这个选项也要使用。下面是不加-q参数额显示，有很长的一部分对于统计分析没有意义</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">[root@archpredb214 ~]#  tcpdump -s 65535 -x  -nn  -tttt -i any -c 100000 port 3306</span><br><span class="line">tcpdump: verbose output suppressed, use -v or -vv for full protocol decode</span><br><span class="line">listening on any, link-type LINUX_SLL (Linux cooked), capture size 65535 bytes</span><br><span class="line">2018-01-24 10:09:41.913854 IP 127.0.0.1.43489 &gt; 127.0.0.1.3306: Flags [P.], seq 2924891927:2924891946, ack 4274787189, win 265, options [nop,nop,TS val 378040756 ecr 377550240], length 19    #不加-q的额外输出显示</span><br><span class="line">	0x0000:  4508 0047 e96d 4000 4006 5339 7f00 0001</span><br><span class="line">	0x0010:  7f00 0001 a9e1 0cea ae56 4f17 fecc 1375</span><br><span class="line">	0x0020:  8018 0109 fe3b 0000 0101 080a 1688 71b4</span><br><span class="line">	0x0030:  1680 f5a0 0f00 0000 0373 686f 7720 6461</span><br><span class="line">	0x0040:  7461 6261 7365 73</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>-tttt 在每行打印前打印日期，有必要，作为时间统计。</p>
+</li>
+<li><p>-i any 抓取所有网口的包（不包括lo），其实这里抓取 eth0就可以了。下面是关于<code>man tcpdump</code> 的 -i选项输出</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">-i     Listen on interface.  If unspecified, tcpdump searches the system interface list for the lowest numbered, configured up interface (excluding</span><br><span class="line">       loopback).  Ties are broken by choosing the earliest match.</span><br><span class="line"></span><br><span class="line">       On  Linux systems with 2.2 or later kernels, an interface argument of ‘‘any’’ can be used to capture packets from all interfaces.  Note that</span><br><span class="line">       captures on the ‘‘any’’ device will not be done in promiscuous mode.</span><br><span class="line"></span><br><span class="line">       If the -D flag is supported, an interface number as printed by that flag can be used as the interface argument.</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>-c 100000  抓取10w个数据包</p>
+</li>
+<li>port 3306 端口号</li>
+</ul>
+</blockquote>
+<h3 id="pt-query-digest"><a href="#pt-query-digest" class="headerlink" title="pt-query-digest"></a>pt-query-digest</h3><p>这其实是percona的一个脚本工具，当然需要解决依赖关系。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">[root@archpredb214 ~]#yum -y install perl perl-IO-Socket-SSL perl-DBD-MySQL perl-Time-HiRes</span><br><span class="line">...</span><br><span class="line">[root@archpredb214 ~]#wget percona.com/get/percona-toolkit.rpm</span><br><span class="line">...</span><br><span class="line">rpm -ivh percona-toolkit-2.1.7-1.noarch.rpm</span><br><span class="line">...</span><br><span class="line">[root@archpredb214 ~]# find  / -name &apos;pt-query-digest&apos;</span><br><span class="line">/home/mysql/mysql_tools/pt-query-digest</span><br><span class="line">[root@archpredb214 ~]#</span><br></pre></td></tr></table></figure></p>
+<p>Usage: <code>pt-query-digest [OPTIONS] [FILES] [DSN]</code><em>该命令支持stdin</em></p>
+<p>典型分析用法</p>
+<ol>
+<li><p>分析慢日志<br><code>[root@archpredb214 ~]#/home/mysql/mysql_tools/pt-query-digest slow.log</code></p>
+</li>
+<li><p>分析tcpdump工具抓取的数据包转储文件  <code>mysql.tcp.txt</code>  </p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">[root@archpredb214 ~]#tcpdump -s 65535 -x -nn -q -tttt -i any -c 1000 port 3306 &gt; mysql.tcp.txt</span><br><span class="line">[root@archpredb214 ~]#/home/mysql/mysql_tools/pt-query-digest --type tcpdump mysql.tcp.txt</span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+<blockquote>
+<ul>
+<li>-type [binlog | genlog | slowlog | tcpdump]</li>
+</ul>
+</blockquote>
+<p> 指定<code>pt-query-digest</code>要分析的文件类型</p>
+<ul>
+<li>第一部分，总体统计结果(这里以慢查询日志为例子分析)<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line">  [root@archpredb214 data]# /home/mysql/mysql_tools/pt-query-digest --type=slowlog             ./archpredb214-slow.log </span><br><span class="line"> # 170ms user time, 10ms system time, 23.39M rss, 180.74M vsz</span><br><span class="line"> # Current date: Wed Jan 24 14:23:02 2018</span><br><span class="line"> # Hostname: archpredb214</span><br><span class="line"> # Files: ./archpredb214-slow.log</span><br><span class="line"> # Overall: 2 total, 2 unique, 0 QPS, 0x concurrency ______________________</span><br><span class="line"> # Time range: all events occurred at 2017-10-13 15:36:25</span><br><span class="line"> # Attribute          total     min     max     avg     95%  stddev  median</span><br><span class="line"> # ============     ======= ======= ======= ======= ======= ======= =======</span><br><span class="line"> # Exec time             2s   517ms      1s   759ms      1s   342ms   759ms</span><br><span class="line"> # Lock time          176us    63us   113us    88us   113us    35us    88us</span><br><span class="line"> # Rows sent              0       0       0       0       0       0       0</span><br><span class="line"> # Rows examine     208.00k       0 208.00k 104.00k 208.00k 147.08k 104.00k</span><br><span class="line"> # Rows affecte     104.00k       0 104.00k  52.00k 104.00k  73.54k  52.00k</span><br><span class="line"> # Rows read              0       0       0       0       0       0       0</span><br><span class="line"> # Bytes sent            72      11      61      36      61   35.36      36</span><br><span class="line"> # Tmp tables             0       0       0       0       0       0       0</span><br><span class="line"> # Tmp disk tbl           0       0       0       0       0       0       0</span><br><span class="line"> # Tmp tbl size           0       0       0       0       0       0       0</span><br><span class="line"> # Query size           271     121     150  135.50     150   20.51  135.50</span><br><span class="line">...</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<blockquote>
+<p>如上输出，后面的数据省略。</p>
+<ul>
+<li>Overall（位于第6行）：2 total 表示总共有多少查询，这里一共两行； 2 unique 唯一查询的数量，这里一共两个；假设都是同一个SQL那么这个值应该为1。</li>
+<li>Time range ：表示时间范围，上表中表示的是所有的慢查询都发生在 2017-10-13 15:36:25</li>
+</ul>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">Attribute <br><br>属性</th>
+<th style="text-align:center">total   <br><br>共计</th>
+<th style="text-align:center">min <br><br>最小</th>
+<th style="text-align:center">max<br><br>最大</th>
+<th style="text-align:center">avg<br><br>平均</th>
+<th style="text-align:center">95%<br><br>95%置信区间</th>
+<th>stddev<br><br>标准差</th>
+<th>median<br><br>中位数</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Exec time<br><br>执行时间</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center">Lock time<br><br>锁时间</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center">Rows sent<br><br>查询返回的行数</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center">Rows examine<br><br>查询检查的行数</td>
+</tr>
+</tbody>
+</table>
+<p>….<br>95%:正态分布，95%，就是去掉极端情况</p>
+<ul>
+<li>第二部分，查询分组统计结果(还是以上面第一部分的命令为例)<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"># Profile</span><br><span class="line"># Rank Query ID           Response time Calls R/Call V/M   Item</span><br><span class="line"># ==== ================== ============= ===== ====== ===== ===============</span><br><span class="line">#    1 0x106F26B3D217B2C9  1.0003 65.9%     1 1.0003  0.00 </span><br><span class="line">#    2 0x01C3BF9ABB566E2C  0.5170 34.1%     1 0.5170  0.00 INSERT SELECT    test.group_message group_message</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">Column</th>
+<th style="text-align:center">Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Rank</td>
+<td style="text-align:center">The query’s rank within the entire set of queries analyzed</td>
+</tr>
+<tr>
+<td style="text-align:center">Query ID</td>
+<td style="text-align:center">The query’s fingerprint</td>
+</tr>
+<tr>
+<td style="text-align:center">Response time</td>
+<td style="text-align:center">The total response time, and percentage of overall total</td>
+</tr>
+<tr>
+<td style="text-align:center">Calls</td>
+<td style="text-align:center">The number of times this query was executed</td>
+</tr>
+<tr>
+<td style="text-align:center">R/Call</td>
+<td style="text-align:center">The mean response time per execution</td>
+</tr>
+<tr>
+<td style="text-align:center">V/M</td>
+<td style="text-align:center">The Variance-to-mean ratio of response time</td>
+</tr>
+<tr>
+<td style="text-align:center">Item</td>
+<td style="text-align:center">The distilled query</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>第三部分，每个被统计的查询的详细信息</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br></pre></td><td class="code"><pre><span class="line"> # Query 1: 0 QPS, 0x concurrency, ID 0x106F26B3D217B2C9 at byte 0 ________</span><br><span class="line"> # This item is included in the report because it matches --limit.</span><br><span class="line"> # Scores: V/M = 0.00</span><br><span class="line"> # Time range: all events occurred at 2017-10-13 15:36:25</span><br><span class="line"> # Attribute    pct   total     min     max     avg     95%  stddev  median</span><br><span class="line"> # ============ === ======= ======= ======= ======= ======= ======= =======</span><br><span class="line"> # Count         50       1</span><br><span class="line"> # Exec time     65      1s      1s      1s      1s      1s       0      1s</span><br><span class="line"> # Lock time     35    63us    63us    63us    63us    63us       0    63us</span><br><span class="line"> # Rows sent      0       0       0       0       0       0       0       0</span><br><span class="line"> # Rows examine   0       0       0       0       0       0       0       0</span><br><span class="line"> # Rows affecte   0       0       0       0       0       0       0       0</span><br><span class="line"> # Rows read      0       0       0       0       0       0       0       0</span><br><span class="line"> # Bytes sent    15      11      11      11      11      11       0      11</span><br><span class="line"> # Tmp tables     0       0       0       0       0       0       0       0</span><br><span class="line"> # Tmp disk tbl   0       0       0       0       0       0       0       0</span><br><span class="line"> # Tmp tbl size   0       0       0       0       0       0       0       0</span><br><span class="line"> # Query size    44     121     121     121     121     121       0     121</span><br><span class="line"> # String:</span><br><span class="line"> # Hosts</span><br><span class="line"> # Last errno   0</span><br><span class="line"> # Users        root</span><br><span class="line"> # Query_time distribution</span><br><span class="line"> #   1us</span><br><span class="line"> #  10us</span><br><span class="line"> # 100us</span><br><span class="line"> #   1ms</span><br><span class="line"> #  10ms</span><br><span class="line"> # 100ms</span><br><span class="line"> #    1s  ################################################################</span><br><span class="line"> #  10s+</span><br><span class="line">GRANT REPLICATION SLAVE ON *.* TO &apos;repl&apos;@&apos;10.27.139.%&apos; IDENTIFIED BY PASSWORD &apos;*5C2A4F610EF47B9C3C868FF5E88A69965D887ED4&apos;\G</span><br></pre></td></tr></table></figure>
+<h4 id="常见操作"><a href="#常见操作" class="headerlink" title="常见操作"></a>常见操作</h4><ul>
+<li>分析最近12小时内的查询</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[root@archpredb214 lianxi]# /home/mysql/mysql_tools/pt-query-digest  --since=12h /mysql/data/archpredb214-slow.log  &gt;anal1.txt</span><br></pre></td></tr></table></figure>
+<ul>
+<li><p>分析指定时间范围内的查询</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[root@archpredb214 lianxi]# /home/mysql/mysql_tools/pt-query-digest  &apos;unixtimestamp1&apos; –until  &apos;unixtimestamp2&apos; &gt;anal2.txt</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>–filter参数是一个很强大的选项，甚至可以自己创造一些输出,这里只是列举一些常见的输出</p>
+</li>
+</ul>
+<blockquote>
+<ul>
+<li><p>分析只含有select语句的慢查询</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[root@archpredb214 lianxi]# /home/mysql/mysql_tools/pt-query-digest  --filter &apos;$event-&gt;&#123;fingerprint&#125; =~ m/^select/i&apos; /mysql/data/archpredb214-slow.log  &gt;anal3.txt</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>针对某个用户的慢查询</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">root@archpredb214 lianxi]# /home/mysql/mysql_tools/pt-query-digest  --filter  &apos;($event-&gt;&#123;user&#125; || &quot;&quot;) =~ m/^root/i&apos; /mysql/data/archpredb214-slow.log  &gt;anal4.txt</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>所有的全表扫描或full join的慢查询</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[root@archpredb214 lianxi]# /home/mysql/mysql_tools/pt-query-digest  --filter  &apos;(($event-&gt;&#123;Full_scan&#125; || &quot;&quot;) eq &quot;yes&quot;) || (($event-&gt;&#123;Full_join&#125; || &quot;&quot;) eq &quot;yes&quot;)&apos;  /mysql/data/archpredb214-slow.log  &gt;anal5.txt</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>其他更详细的示例参考percona官方文档。</p>
+</li>
+</ul>
+</blockquote>
+<p><a href="https://www.cnblogs.com/maifengqiang/p/3863168.html" target="_blank" rel="noopener">超级详细Tcpdump的用法</a></p>
+<p> <a href="http://blog.csdn.net/lijingkuan/article/details/50759987" target="_blank" rel="noopener">tcpdump&amp;pt-query-digest分析mysql负载性能问题</a></p>
+<p> <a href="https://www.percona.com/doc/percona-toolkit/2.2/pt-query-digest.html" target="_blank" rel="noopener">官方文档</a></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2018/02/07/tcpdump+pt-query-digest/" data-id="cjdcurisy0005m0o094q90tj8" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-shell" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2018/02/07/shell/" class="article-date">
+  <time datetime="2018-02-07T08:57:33.173Z" itemprop="datePublished">2018-02-07</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="su"><a href="#su" class="headerlink" title="su"></a>su</h2><blockquote>
+<ul>
+<li><p>su - username是改变为切换到用户的变量</p>
+</li>
+<li><p>su username是不改变当前变量</p>
+</li>
+</ul>
+</blockquote>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">[root@master ~]# su  hahaguai </span><br><span class="line">[hahaguai@master root]$ echo $PATH</span><br><span class="line">/usr/lib64/qt-3.3/bin:/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/root/bin</span><br><span class="line">[hahaguai@master root]$ exit</span><br><span class="line">[root@master ~]# echo $PATH</span><br><span class="line">/usr/lib64/qt-3.3/bin:/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/root/bin</span><br><span class="line">[root@master ~]# su - hahaguai </span><br><span class="line">[hahaguai@master ~]$ echo $PATH</span><br><span class="line">/usr/lib64/qt-3.3/bin:/usr/local/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/home/hahaguai/bin</span><br><span class="line">[hahaguai@master ~]$ logout</span><br><span class="line">[root@master ~]#</span><br></pre></td></tr></table></figure>
+<ul>
+<li>==-c==  选项是一个写shell脚本经常用到的选项，切换到username并且执行-c之后的命令然后返回到当前用户。<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">[root@master ~]# su - mysql -c &apos; mysql --version&apos;</span><br><span class="line">mysql  Ver 14.14 Distrib 5.7.14, for Linux (x86_64) using  EditLine wrapper</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2018/02/07/shell/" data-id="cjdcurisu0003m0o01ha05w0i" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-sed替换字符" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2018/02/07/sed替换字符/" class="article-date">
+  <time datetime="2018-02-07T08:57:33.170Z" itemprop="datePublished">2018-02-07</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>Linux下批量替换多个文件中的字符串的简单方法。用sed命令可以批量替换多个文件中的字符串。</p>
+<p>命令如下：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">sed -i &quot;s/原字符串/新字符串/g&quot; $(grep 原字符串 -rl 所在目录)</span><br><span class="line">例如：我要把/www目录下所有文件中含有charset=gb2312的文件递归替换为charset=UTF-8，执行命令：</span><br><span class="line"></span><br><span class="line">sed -i &quot;s/charset=gb2312/charset=UTF-8/g&quot; $(grep charset=gb2312 -rl /www)</span><br><span class="line">即可。</span><br></pre></td></tr></table></figure></p>
+<p>解释一下：</p>
+<p>-i 表示inplace edit，就地修改文件</p>
+<p>-r 表示搜索子目录</p>
+<p>-l 表示输出匹配的文件名</p>
+<p>这个命令组合很强大，要注意备份文件。</p>
+<p><a href="http://www.frostsky.com/2014/01/linux-sed-command/" target="_blank" rel="noopener">sed更多用法</a></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2018/02/07/sed替换字符/" data-id="cjdcuriss0002m0o0jmab44dd" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-map、reduce、filter、sorted" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2018/02/07/map、reduce、filter、sorted/" class="article-date">
+  <time datetime="2018-02-07T08:57:33.168Z" itemprop="datePublished">2018-02-07</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="map"><a href="#map" class="headerlink" title="map"></a>map</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">L = []</span><br><span class="line"><span class="keyword">for</span> n <span class="keyword">in</span> [<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>, <span class="number">5</span>, <span class="number">6</span>, <span class="number">7</span>, <span class="number">8</span>, <span class="number">9</span>]:</span><br><span class="line">    L.append(f(n))</span><br><span class="line">print(L)</span><br></pre></td></tr></table></figure>
+<p>有一个函数f(x)，然后要将f(x)作用在一个list上，实现对每一个元素的平方，那么就可以如上实现。<br>其实Python提供了另外一种功能，叫做map()<br><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="function"><span class="keyword">def</span> <span class="title">f</span><span class="params">(x)</span>:</span></span><br><span class="line"><span class="meta">... </span>    <span class="keyword">return</span> x * x</span><br><span class="line">...</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>r = map(f, [<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>, <span class="number">5</span>, <span class="number">6</span>, <span class="number">7</span>, <span class="number">8</span>, <span class="number">9</span>])</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>list(r)</span><br><span class="line">[<span class="number">1</span>, <span class="number">4</span>, <span class="number">9</span>, <span class="number">16</span>, <span class="number">25</span>, <span class="number">36</span>, <span class="number">49</span>, <span class="number">64</span>, <span class="number">81</span>]</span><br></pre></td></tr></table></figure></p>
+<p>事实上，可以计算任意复杂的函数<br><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>list(map(str, [<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>, <span class="number">5</span>, <span class="number">6</span>, <span class="number">7</span>, <span class="number">8</span>, <span class="number">9</span>]))</span><br><span class="line">[<span class="string">'1'</span>, <span class="string">'2'</span>, <span class="string">'3'</span>, <span class="string">'4'</span>, <span class="string">'5'</span>, <span class="string">'6'</span>, <span class="string">'7'</span>, <span class="string">'8'</span>, <span class="string">'9'</span>]</span><br></pre></td></tr></table></figure></p>
+<h2 id="reduce"><a href="#reduce" class="headerlink" title="reduce"></a>reduce</h2>
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2018/02/07/map、reduce、filter、sorted/" data-id="cjdcurisp0001m0o0lxv8hr38" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-文件IO" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2018/02/07/文件IO/" class="article-date">
+  <time datetime="2018-02-07T08:57:33.165Z" itemprop="datePublished">2018-02-07</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2018/02/07/文件IO/" data-id="cjdcuris20000m0o0e4dpisws" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-模块" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2018/02/07/模块/" class="article-date">
+  <time datetime="2018-02-07T08:57:33.163Z" itemprop="datePublished">2018-02-07</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="模块"><a href="#模块" class="headerlink" title="模块"></a>模块</h2><p>[toc]</p>
+<ul>
+<li><a href="https://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000/001431845183474e20ee7e7828b47f7b7607f2dc1e90dbb000" target="_blank" rel="noopener">为什么要使用  if <code>__name__</code> == <code>&#39;__main__&#39;</code></a></li>
+</ul>
+<p>在知乎上看到一个说法很有意思，分享给大家</p>
+<p>假设你现在有个文件叫 ==小明.py==</p>
+<p>在别人眼中，你是小明<br>在小明自己眼中，自己是<strong>main</strong></p>
+<p>小明python写的好，别人import小明，让小明帮忙写代码，在别人眼中，你是小明<br>但是小明自己晚上有时候需要打开xxx网站，这时候直接运行==小明.py==，<code>__name__=&#39;__main__&#39;</code></p>
+<p>还不明白，试试就知道了，写两个module文件<br><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#a.py</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">print</span> (__name__)</span><br></pre></td></tr></table></figure></p>
+<p>直接运行==a.py==，打印出的是 <code>__main__</code></p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#b.py</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> a</span><br><span class="line">print(__name__)</span><br></pre></td></tr></table></figure>
+<p>直接运行==b.py==，打印出的是a 和 <code>__main__</code>，其中a就是==a.py==的<code>__name__</code>,<code>__main__</code>就是b.py的<code>__name__</code>了。所以这里写这么一条主要就是判断是否是程序主入口而已，如果是程序主入口，则代码块执行，否则代码块不执行</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> sys</span><br><span class="line"><span class="keyword">print</span> <span class="string">'The command line arguments are:'</span></span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> sys.argv:</span><br><span class="line">    <span class="keyword">print</span> i</span><br><span class="line"><span class="keyword">print</span> <span class="string">'\n\nThe PYTHONPATH is'</span>, sys.path, <span class="string">'\n'</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">[root@master python]# python mode.py  we are arguements</span><br><span class="line">The command line arguments are:</span><br><span class="line">mode.py    # sys.argv[0]  默认自带</span><br><span class="line">we</span><br><span class="line">are</span><br><span class="line">arguements</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">The PYTHONPATH is [&apos;/lianxi/python&apos;, &apos;/usr/lib64/python26.zip&apos;, &apos;/usr/lib64/python2.6&apos;, &apos;/usr/lib64/python2.6/plat-linux2&apos;, &apos;/usr/lib64/python2.6/lib-tk&apos;, &apos;/usr/lib64/python2.6/lib-old&apos;, &apos;/usr/lib64/python2.6/lib-dynload&apos;, &apos;/usr/lib64/python2.6/site-packages&apos;, &apos;/usr/lib64/python2.6/site-packages/gtk-2.0&apos;, &apos;/usr/lib/python2.6/site-packages&apos;, &apos;/usr/lib/python2.6/site-packages/setuptools-0.6c11-py2.6.egg-info&apos;] </span><br><span class="line"></span><br><span class="line">[root@master python]#</span><br></pre></td></tr></table></figure>
+<ul>
+<li>字节编译的.pyc文件</li>
+</ul>
+<p>输入一个模块相对来说是一个比较费时的事情，所以Python做了一些技巧，以便使输入模块更加快一些。一种方法是创建字节编译的文件，这些文件以.pyc作为扩展名。字节编译的文件与Python变换程序的中间状态有关（是否还记得Python如何工作的介绍？）。当你在下次从别的程序输入这个模块的时候，.pyc文件是十分有用的——它会快得多，因为一部分输入模块所需的处理已经完成了。另外，这些字节编译的文件也是与平台无关的。</p>
+<h3 id="如何引用模块"><a href="#如何引用模块" class="headerlink" title="如何引用模块"></a>如何引用模块</h3><p>如果在一个模块中如下定义<br><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#a.py</span></span><br><span class="line"><span class="keyword">print</span> <span class="string">"Hello,i'm moudule [a] in %s"</span> %__name__</span><br></pre></td></tr></table></figure></p>
+<p>那么在命令行中直接引用的时候就会如下<br><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="keyword">import</span> a</span><br><span class="line">Hello,i<span class="string">'m moudule [a] in a.py</span></span><br></pre></td></tr></table></figure></p>
+<p>如上，在加载模块的时候就会自动执行一次这个.py文件中的命令，假设如下，将该模块使用函数封装，并且加入一个测试函数，就会好很多，并且不会执行。</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#!/usr/bin/env python3</span></span><br><span class="line"><span class="comment"># -*- coding: utf-8 -*-</span></span><br><span class="line"></span><br><span class="line"><span class="string">' a test module '</span></span><br><span class="line"></span><br><span class="line">__author__ = <span class="string">'Michael Liao'</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> sys</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">test</span><span class="params">()</span>:</span></span><br><span class="line">    args = sys.argv</span><br><span class="line">    <span class="keyword">if</span> len(args)==<span class="number">1</span>:</span><br><span class="line">        print(<span class="string">'Hello, world!'</span>)</span><br><span class="line">    <span class="keyword">elif</span> len(args)==<span class="number">2</span>:</span><br><span class="line">        print(<span class="string">'Hello, %s!'</span> % args[<span class="number">1</span>])</span><br><span class="line">    <span class="keyword">else</span>:</span><br><span class="line">        print(<span class="string">'Too many arguments!'</span>)</span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> __name__==<span class="string">'__main__'</span>:</span><br><span class="line">    test()</span><br></pre></td></tr></table></figure>
+<p>第1行和第2行是标准注释，第1行注释可以让这个hello.py文件直接在Unix/Linux/Mac上运行，第2行注释表示.py文件本身使用标准UTF-8编码；</p>
+<p>第4行是一个字符串，表示模块的文档注释，任何模块代码的第一个字符串都被视为模块的文档注释；</p>
+<p>第6行使用<code>__author__</code>变量把作者写进去，这样当你公开源代码后别人就可以瞻仰你的大名；</p>
+<p>以上就是Python模块的标准文件模板，当然也可以全部删掉不写，但是，按标准办事肯定没错。</p>
+<p>后面开始就是真正的代码部分。</p>
+<p>你可能注意到了，使用sys模块的第一步，就是导入该模块：</p>
+<p><code>import sys</code><br>导入sys模块后，我们就有了变量sys指向该模块，利用<code>sys</code>这个变量，就可以访问sys模块的所有功能。</p>
+<p>sys模块有一个<code>argv</code>变量，用list存储了命令行的所有参数。<code>argv</code>至少有一个元素，因为第一个参数永远是该.py文件的名称，例如：</p>
+<p>运行<code>python3 hello.py</code>获得的<code>sys.argv</code>就是<code>[&#39;hello.py&#39;]</code>；</p>
+<p>运行<code>python3 hello.py Michael</code>获得的sys.argv就是<code>[&#39;hello.py&#39;, &#39;Michael]</code>。</p>
+<p>最后，注意到这两行代码：</p>
+<p><code>if __name__ ==&#39;__main__&#39;:test()</code><br>当我们在命令行运行hello模块文件时，Python解释器把一个特殊变量<code>__name__</code>置为<code>__main__</code>，而如果在其他地方导入该hello模块时，if判断将失败，因此，这种if测试可以让一个模块通过命令行运行时执行一些额外的代码，最常见的就是运行测试。</p>
+<p>我们可以用命令行运行hello.py看看效果：<br><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">$ python3 hello.py</span><br><span class="line">Hello, world!</span><br><span class="line">$ python hello.py Michael</span><br><span class="line">Hello, Michael!</span><br><span class="line">如果启动Python交互环境，再导入hello模块：</span><br><span class="line"></span><br><span class="line">$ python3</span><br><span class="line">Python <span class="number">3.4</span><span class="number">.3</span> (v3<span class="number">.4</span><span class="number">.3</span>:<span class="number">9</span>b73f1c3e601, Feb <span class="number">23</span> <span class="number">2015</span>, <span class="number">02</span>:<span class="number">52</span>:<span class="number">03</span>) </span><br><span class="line">[GCC <span class="number">4.2</span><span class="number">.1</span> (Apple Inc. build <span class="number">5666</span>) (dot <span class="number">3</span>)] on darwin</span><br><span class="line">Type <span class="string">"help"</span>, <span class="string">"copyright"</span>, <span class="string">"credits"</span> <span class="keyword">or</span> <span class="string">"license"</span> <span class="keyword">for</span> more information.</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="keyword">import</span> hello</span><br><span class="line">&gt;&gt;&gt;</span><br><span class="line">导入时，没有打印Hello, word!，因为没有执行test()函数。</span><br><span class="line"></span><br><span class="line">调用hello.test()时，才能打印出Hello, word!：</span><br><span class="line"></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>hello.test()</span><br><span class="line">Hello, world!</span><br></pre></td></tr></table></figure></p>
+<h3 id="第三方模块跟自定义模块"><a href="#第三方模块跟自定义模块" class="headerlink" title="第三方模块跟自定义模块"></a>第三方模块跟自定义模块</h3><p>当试图家在一个模块时，Python会在指定的路径下搜索对应的.py文件，如果找不到，就会报错：<br><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="keyword">import</span> mymodule</span><br><span class="line">Traceback (most recent call last):</span><br><span class="line">  File <span class="string">"&lt;stdin&gt;"</span>, line <span class="number">1</span>, <span class="keyword">in</span> &lt;module&gt;</span><br><span class="line">ImportError: No module named mymodule</span><br></pre></td></tr></table></figure></p>
+<p>默认情况下，Python解释器会搜索当前目录、所有已安装的内置模块和第三方模块，搜索路径存放在<code>sys</code>模块的<code>path</code>变量中：<br><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="keyword">import</span> sys</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="keyword">print</span> sys.path;</span><br><span class="line">[<span class="string">''</span>, <span class="string">'/usr/lib64/python26.zip'</span>, <span class="string">'/usr/lib64/python2.6'</span>, <span class="string">'/usr/lib64/python2.6/plat-linux2'</span>, <span class="string">'/usr/lib64/python2.6/lib-tk'</span>, <span class="string">'/usr/lib64/python2.6/lib-old'</span>, <span class="string">'/usr/lib64/python2.6/lib-dynload'</span>, <span class="string">'/usr/lib64/python2.6/site-packages'</span>, <span class="string">'/usr/lib64/python2.6/site-packages/gtk-2.0'</span>, <span class="string">'/usr/lib/python2.6/site-packages'</span>, <span class="string">'/usr/lib/python2.6/site-packages/setuptools-0.6c11-py2.6.egg-info'</span>]</span><br><span class="line">&gt;&gt;&gt;</span><br></pre></td></tr></table></figure></p>
+<p>如果我们要添加自己的搜索目录，有两种方法：</p>
+<p>一是直接修改<code>sys.path</code>，添加要搜索的目录<br><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="keyword">import</span> sys</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>sys.path.append(<span class="string">'/Users/michael/my_py_scripts'</span>)</span><br></pre></td></tr></table></figure></p>
+<p>这种方法是在运行时修改，运行结束后失效。</p>
+<p>第二种方法是设置环境变量<code>PYTHONPATH</code>，该环境变量的内容会被自动添加到模块搜索路径中。设置方式与设置Path环境变量类似。注意只需要添加你自己的搜索路径，Python自己本身的搜索路径不受影响。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">export PYTHONPATH=dir</span><br></pre></td></tr></table></figure></p>
+<p>或者在系统环境变量配置文件/etc/profile、个人环境变量配置文件~/.bash_profile在最后添加<code>export   PYTHONPATH=dir</code><br>然后在shell提输入<code>export PYTHONPATH=dir</code></p>
+<p>或者将自己写的脚本方法Python自带的site-packages里面</p>
+<ul>
+<li>导入到当前名称空间的名称</li>
+</ul>
+<p>调用 from-import 可以把名字导入当前的名称空间里去, 这意味着你不需要使用属性/句点<br>属性标识来访问模块的标识符。 例如, 你需要访问模块 module 中的 var 名字是这样被导入的:<br>from module import var<br>我们使用单个的 var 就可以访问它自身。 把 var 导入到名称空间后就再没必要引用模块了。<br>当然, 你也可以把指定模块的所有名称导入到当前名称空间里:<br>from module import *</p>
+<p>但是，一般说来，应该避免使用 from..import 而使用 import 语句，因为这样可以使你<br>的程序更加易读，也可以避免名称的冲突。</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2018/02/07/模块/" data-id="cjdcurit20008m0o0s5lx6p1g" class="article-share-link">Share</a>
       
       
     </footer>
@@ -131,12 +763,28 @@
   
     
   <div class="widget-wrap">
-    <h3 class="widget-title">Articles récents</h3>
+    <h3 class="widget-title">Recent Posts</h3>
     <div class="widget">
       <ul>
         
           <li>
-            <a href="/2018/02/06/hello-world/">Hello World</a>
+            <a href="/2018/02/07/类/">(no title)</a>
+          </li>
+        
+          <li>
+            <a href="/2018/02/07/快速配置环境变量/">(no title)</a>
+          </li>
+        
+          <li>
+            <a href="/2018/02/07/抽象、结构、函数/">(no title)</a>
+          </li>
+        
+          <li>
+            <a href="/2018/02/07/time、os、subprocess/">(no title)</a>
+          </li>
+        
+          <li>
+            <a href="/2018/02/07/tcpdump+pt-query-digest/">(no title)</a>
           </li>
         
       </ul>
@@ -152,7 +800,7 @@
   <div class="outer">
     <div id="footer-info" class="inner">
       &copy; 2018 John Doe<br>
-      Propulsé by <a href="http://hexo.io/" target="_blank">Hexo</a>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
     </div>
   </div>
 </footer>
