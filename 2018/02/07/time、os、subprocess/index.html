@@ -74,7 +74,7 @@
 
 
 
-  <link rel="alternate" href="/atom.xml" title="godkun的博客" type="application/atom+xml" />
+  <link rel="alternate" href="/atom.xml" title="hahaguai's blog" type="application/atom+xml" />
 
 
 
@@ -83,14 +83,14 @@
 
 <meta name="description" content="[toc] import time 返回一个时间元组123import timetime.strftime(&apos;%Y-%m-%d %H:%M:%S&apos;)#&apos;2018-01-27 04:52:00&apos;   一个萌新，看官方文档之后，推荐使用以上表达时间的方式。 关于日志格式化的更多格式，参考官方文档模块中time.strftime(format[, t])    import shlex, subproc">
 <meta property="og:type" content="article">
-<meta property="og:title" content="godkun的博客">
+<meta property="og:title" content="hahaguai&#39;s blog">
 <meta property="og:url" content="http://yoursite.com/2018/02/07/time、os、subprocess/index.html">
-<meta property="og:site_name" content="godkun的博客">
+<meta property="og:site_name" content="hahaguai&#39;s blog">
 <meta property="og:description" content="[toc] import time 返回一个时间元组123import timetime.strftime(&apos;%Y-%m-%d %H:%M:%S&apos;)#&apos;2018-01-27 04:52:00&apos;   一个萌新，看官方文档之后，推荐使用以上表达时间的方式。 关于日志格式化的更多格式，参考官方文档模块中time.strftime(format[, t])    import shlex, subproc">
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:updated_time" content="2018-02-05T09:01:52.160Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="godkun的博客">
+<meta name="twitter:title" content="hahaguai&#39;s blog">
 <meta name="twitter:description" content="[toc] import time 返回一个时间元组123import timetime.strftime(&apos;%Y-%m-%d %H:%M:%S&apos;)#&apos;2018-01-27 04:52:00&apos;   一个萌新，看官方文档之后，推荐使用以上表达时间的方式。 关于日志格式化的更多格式，参考官方文档模块中time.strftime(format[, t])    import shlex, subproc">
 
 
@@ -127,7 +127,7 @@
 
 
 
-  <title> | godkun的博客</title>
+  <title> | hahaguai's blog</title>
   
 
 
@@ -157,12 +157,12 @@
     <div class="custom-logo-site-title">
       <a href="/"  class="brand" rel="start">
         <span class="logo-line-before"><i></i></span>
-        <span class="site-title">godkun的博客</span>
+        <span class="site-title">hahaguai's blog</span>
         <span class="logo-line-after"><i></i></span>
       </a>
     </div>
       
-        <p class="site-subtitle">记录学习的技能和遇到的问题</p>
+        <p class="site-subtitle">各种鬼使</p>
       
   </div>
 
@@ -243,7 +243,7 @@
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="godkun的博客">
+      <meta itemprop="name" content="hahaguai's blog">
     </span>
 
     
@@ -318,7 +318,7 @@
 <li><p><code>subprocess.Popen(&quot;cat test.txt&quot;, shell=True)</code><br>相当于<br><code>subprocess.Popen([&quot;/bin/sh&quot;, &quot;-c&quot;, &quot;cat test.txt&quot;])</code><br>在linux下，当<code>shell=False</code>（默认）时，Popen使用<code>os.execvp()</code>来执行子程序。args一般要是一个[列表]。如果args是个字符串的<br>话，会被当做是可执行文件的路径，这样就不能传入任何参数了。因此，传入的参数args如果是一个字符串的话联合<code>shell=true</code>使用，如果是一个字符串列表，就可以直接使用，不必加参数<code>shell=true</code></p>
 </li>
 <li><p>在Windows下，下面的却又是可以工作的</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">subprocess.Popen([&quot;notepad.exe&quot;, &quot;test.txt&quot;])</span><br><span class="line">subprocess.Popen(&quot;notepad.exe test.txt&quot;)</span><br></pre></td></tr></table></figure>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">subprocess</span><span class="selector-class">.Popen</span>(<span class="selector-attr">["notepad.exe", "test.txt"]</span>)</span><br><span class="line"><span class="selector-tag">subprocess</span><span class="selector-class">.Popen</span>("<span class="selector-tag">notepad</span><span class="selector-class">.exe</span> <span class="selector-tag">test</span><span class="selector-class">.txt</span>")</span><br></pre></td></tr></table></figure>
 </li>
 <li><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>p1=subprocess.Popen(<span class="string">'cat /etc/passwdv_1'</span>,shell=<span class="keyword">True</span>,stdin=subprocess.PIPE,stdout=subprocess.PIPE) </span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>p1.communicate()</span><br><span class="line">(<span class="string">'root:x:0:0:root:/root:/bin/bash\n\n'</span>, <span class="keyword">None</span>)</span><br><span class="line">上面的操作如下所示。</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="keyword">print</span> subprocess.Popen(<span class="string">'cat /etc/passwdv_1'</span>,shell=<span class="keyword">True</span>,stdin=subprocess.PIPE,stdout=subprocess.PIPE).communicate()[<span class="number">0</span>]  <span class="comment">#其实就是一个元组，这个元组的第一个元素默认为stdout</span></span><br><span class="line"><span class="string">'root:x:0:0:root:/root:/bin/bash\n\n'</span></span><br></pre></td></tr></table></figure>
 </li>
@@ -429,7 +429,7 @@
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
               <p class="site-author-name" itemprop="name">杨昆</p>
-              <p class="site-description motion-element" itemprop="description">德智体全面发展的幼年狮</p>
+              <p class="site-description motion-element" itemprop="description">社会主义五讲四美骚年王</p>
           </div>
 
           <nav class="site-state motion-element">
